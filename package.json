@@ -18,6 +18,11 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.0"
   },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5"
+  },
   "scripts": {
     "develop": "react-scripts start",
     "build": "react-scripts build",
