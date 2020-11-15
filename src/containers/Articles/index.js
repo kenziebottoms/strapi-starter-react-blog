@@ -1,7 +1,7 @@
-import React from "react";
-import Articles from "../../components/Articles";
-import Query from "../../components/Query";
-import ARTICLES_QUERY from "../../queries/article/articles";
+import React from "react"
+import Articles from "../../components/Articles"
+import Query from "../../components/Query"
+import ARTICLES_QUERY from "../../queries/article/articles"
 
 const Home = () => {
   return (
@@ -11,13 +11,13 @@ const Home = () => {
           <h1>Strapi blog</h1>
           <Query query={ARTICLES_QUERY}>
             {({ data: { articles } }) => {
-              return <Articles articles={articles} />;
+              return <Articles articles={articles} />
             }}
           </Query>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

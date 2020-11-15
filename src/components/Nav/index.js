@@ -1,8 +1,8 @@
-import React from "react";
-import Query from "../Query";
-import { Link } from "react-router-dom";
+import React from "react"
+import Query from "../Query"
+import { Link } from "react-router-dom"
 
-import CATEGORIES_QUERY from "../../queries/category/categories";
+import CATEGORIES_QUERY from "../../queries/category/categories"
 
 const Nav = () => {
   return (
@@ -22,7 +22,7 @@ const Nav = () => {
 
                 <div className="uk-navbar-right">
                   <ul className="uk-navbar-nav">
-                    {categories.map((category, i) => {
+                    {categories.map((category) => {
                       return (
                         <li key={category.id}>
                           <Link
@@ -32,17 +32,17 @@ const Nav = () => {
                             {category.name}
                           </Link>
                         </li>
-                      );
+                      )
                     })}
                   </ul>
                 </div>
               </nav>
             </div>
-          );
+          )
         }}
       </Query>
     </div>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

@@ -1,4 +1,4 @@
-import gql from "graphql-tag";
+import gql from "graphql-tag"
 
 const CATEGORIES_QUERY = gql`
   query Categories {
@@ -7,6 +7,6 @@ const CATEGORIES_QUERY = gql`
       name
     }
   }
-`;
+`
 
-export default CATEGORIES_QUERY;
+export default CATEGORIES_QUERY

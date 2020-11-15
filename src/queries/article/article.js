@@ -1,4 +1,4 @@
-import gql from "graphql-tag";
+import gql from "graphql-tag"
 
 const ARTICLE_QUERY = gql`
   query Articles($id: ID!) {
@@ -16,6 +16,6 @@ const ARTICLE_QUERY = gql`
       published_at
     }
   }
-`;
+`
 
-export default ARTICLE_QUERY;
+export default ARTICLE_QUERY

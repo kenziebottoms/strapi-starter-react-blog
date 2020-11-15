@@ -1,11 +1,11 @@
-import React from "react";
-import { useParams } from "react-router";
-import Articles from "../../components/Articles";
-import Query from "../../components/Query";
-import CATEGORY_ARTICLES_QUERY from "../../queries/category/articles";
+import React from "react"
+import { useParams } from "react-router"
+import Articles from "../../components/Articles"
+import Query from "../../components/Query"
+import CATEGORY_ARTICLES_QUERY from "../../queries/category/articles"
 
 const Category = () => {
-  let { id } = useParams();
+  let { id } = useParams()
 
   return (
     <Query query={CATEGORY_ARTICLES_QUERY} id={id}>
@@ -19,10 +19,10 @@ const Category = () => {
               </div>
             </div>
           </div>
-        );
+        )
       }}
     </Query>
-  );
-};
+  )
+}
 
-export default Category;
+export default Category

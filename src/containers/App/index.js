@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom"
 
-import Nav from "../../components/Nav";
-import Articles from "../Articles";
-import Article from "../Article";
-import Category from "../Category";
+import Nav from "../../components/Nav"
+import Articles from "../Articles"
+import Article from "../Article"
+import Category from "../Category"
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/category/:id" component={Category} exact />
       </Switch>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

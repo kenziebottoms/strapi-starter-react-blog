@@ -1,4 +1,4 @@
-import gql from "graphql-tag";
+import gql from "graphql-tag"
 
 const CATEGORY_ARTICLES_QUERY = gql`
   query Category($id: ID!) {
@@ -19,6 +19,6 @@ const CATEGORY_ARTICLES_QUERY = gql`
       }
     }
   }
-`;
+`
 
-export default CATEGORY_ARTICLES_QUERY;
+export default CATEGORY_ARTICLES_QUERY
